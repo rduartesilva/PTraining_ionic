@@ -1,0 +1,96 @@
+#title {
+  display: center;
+  color: red;
+  font-family: poppins;
+  font-style: italic;
+  font-size: large;
+  padding-left: 30%;
+  padding-top: 10%;
+}
+
+#back {
+  width: 100%;
+  width: fit-content;
+  float: right;
+  height: 50%;
+  padding-right: 8px;
+}
+
+table {
+width: 100%;
+}
+
+th, td {
+font-weight: unset;
+padding-left: 10px;
+text-align: center;
+}
+
+.row td {
+padding-top: 18px;
+padding-bottom: 14px;
+}
+
+.table th {
+font-size: 15px;
+color: #fff;
+line-height: 1.4;
+text-transform: uppercase;
+padding: 20px 0 20px 0;
+background-color: rgb(134, 134, 134);
+}
+
+.empty {
+  background-color: rgb(150, 150, 150);
+}
+
+.ion-justify-content-center{
+  padding-top: 10px;
+}
+
+.open-button {
+background-color: #555;
+color: white;
+padding: 16px 20px;
+border: none;
+cursor: pointer;
+opacity: 0.8;
+position: fixed;
+bottom: 23px;
+right: 28px;
+width: 280px;
+}
+
+.form-popup {
+display: none;
+border: 3px solid #f1f1f1;
+z-index: 9;
+color: black;
+margin: 0;
+position: absolute;
+top: 50%;
+left: 50%;
+-ms-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+width: 300px;
+}
+
+
+.form-container {
+max-width: 300px;
+padding: 10px;
+background-color: white;
+vertical-align: middle;
+}
+
+.form-container .cancel {
+  background-color: red;
+}
+
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+.rep {
+  width: 100%;
+}

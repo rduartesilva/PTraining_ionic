@@ -1,0 +1,47 @@
+#cabeçalho {
+    padding: 0px;
+    height: 8%;
+    width: 100%;;
+}
+
+#back {
+    background-color: white;
+    width: 15%;
+    height: 100%;
+}
+
+#arrow {
+    padding: 10px 0px 0px 10px;
+    width: 35px;
+    height: 35px;
+}
+
+#submit {
+    color: black;
+    border-radius: 50px;
+}
+
+.error-message {
+    color: var(--ion-color-danger);
+}
+
+.titulo {
+    text-align: center;
+    font-size: xx-large;
+    color: red;
+}
+
+.texto {
+    margin: 10px;
+    text-align: left;
+    padding:10px 0px 0px 5px;
+    font-size: medium;
+}
+
+.traco {
+    width: 90%;
+    height: 10px;
+    border-radius: 50px;
+    margin: 30px 10px 10px 16px;
+    background-color: rgb(170, 170, 170);
+}

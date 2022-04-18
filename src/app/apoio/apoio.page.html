@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-toolbar class="toolbar">
+      <ion-buttons slot="start">
+        <ion-menu-button></ion-menu-button>
+      </ion-buttons>
+        <ion-title id="title">
+          PTraining
+        </ion-title>
+  </ion-toolbar> 
+</ion-header>
+
+<ion-content>
+  <div class="contact-session">
+    <ion-title id="titulo">Apoio ao cliente</ion-title> 
+
+    <form action="" method="POST" class="contact-form">
+      <input type="text" class="contact-form-text" placeholder="Insira o seu nome"> 
+      <input type="email" class="contact-form-text" placeholder="Insira o seu email"> 
+      <textarea class="contact-form-text" cols="30" rows="10" placeholder="Escreva uma mensagem..."></textarea> 
+      <input type="Submit" class="contact-form-btn" value="Enviar" (click)="showAlert()">
+    </form>
+
+  </div>
+  
+</ion-content>

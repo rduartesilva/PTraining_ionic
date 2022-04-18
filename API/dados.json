@@ -1,0 +1,114 @@
+{
+  "dados": [
+    {
+      "peso": "3",
+      "massag": "4",
+      "idade": "5",
+      "massam": "6",
+      "id": 2
+    },
+    {
+      "peso": "123",
+      "idade": "50",
+      "massag": "80",
+      "massam": "30",
+      "id": 3
+    },
+    {
+      "peso": "23",
+      "massag": "2",
+      "idade": "3",
+      "massam": "5",
+      "id": 4
+    },
+    {
+      "peso": "60",
+      "idade": "20",
+      "massag": "15",
+      "massam": "30",
+      "id": 5
+    },
+    {
+      "peso": "50",
+      "idade": "15",
+      "massag": "25",
+      "massam": "20",
+      "id": 6
+    },
+    {
+      "peso": "70",
+      "idade": "25",
+      "massag": "50",
+      "massam": "10",
+      "id": 7
+    },
+    {
+      "peso": "80",
+      "idade": "25",
+      "massag": "50",
+      "massam": "10",
+      "id": 8
+    },
+    {
+      "id": 9
+    }
+  ],
+  "exercicios": [
+    {
+      "id": "1",
+      "nome": "flexao",
+      "reps": "x12",
+      "descricao": "flexão normal, abrir os braços ao comprimento dos ombros, esticar as costas, e ir abaixo dobrando apenas os braços num movimento controlado.",
+      "link": "https://img1.gratispng.com/20180510/wyq/kisspng-push-up-computer-icons-exercise-sit-up-5af4ec2981ede0.7455031715260006815322.jpg"
+    },
+    {
+      "id": "2",
+      "nome": "flexao inclinada",
+      "reps": "x15",
+      "descricao": "muito parecida à flexão normal, mas um pouco mais fácil, coloque as costas retas e apoie-se numa mesa ou banco. Vá abaixo dobrando os braços num movimento controlado.",
+      "link": "https://www.dicasdetreino.com.br/wp-content/uploads/2016/04/Flexao-de-Braco-Inclinado.jpg"
+    },
+    {
+      "id": "3",
+      "nome": "flexao aberta",
+      "reps": "x10",
+      "descricao": "flexão com braços abertos. abra os braços um pouco mais do que o comprimento dos ombros, mantenha as costas retas e vá abaixo num movimento controlado.",
+      "link": "https://rufforosa.com.br/wp-content/uploads/2017/07/exercicio-flexao-faixa-elastica.png"
+    },
+    {
+      "id": "4",
+      "nome": "flexao diamante",
+      "reps": "x8",
+      "descricao": "flexão em diamante, junte as mãos num formato de diamante, mantenha as costas retas, vá abaxio num movimento controlado.",
+      "link": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUQ4lxznSyD_bKm-4t3LiFyaeQVWO-peDhRw&usqp=CAU"
+    },
+    {
+      "id": "5",
+      "nome": "flexao",
+      "reps": "x12",
+      "descricao": "flexão normal, abrir os braços ao comprimento dos ombros, esticar as costas, e ir abaixo dobrando apenas os braços num movimento controlado.",
+      "link": "https://img1.gratispng.com/20180510/wyq/kisspng-push-up-computer-icons-exercise-sit-up-5af4ec2981ede0.7455031715260006815322.jpg"
+    },
+    {
+      "id": "6",
+      "nome": "flexao inclinada",
+      "reps": "x15",
+      "descricao": "muito parecida à flexão normal, mas um pouco mais fácil, coloque as costas retas e apoie-se numa mesa ou banco. Vá abaixo dobrando os braços num movimento controlado.",
+      "link": "https://www.dicasdetreino.com.br/wp-content/uploads/2016/04/Flexao-de-Braco-Inclinado.jpg"
+    },
+    {
+      "id": "7",
+      "nome": "flexao aberta",
+      "reps": "x10",
+      "descricao": "flexão com braços abertos. abra os braços um pouco mais do que o comprimento dos ombros, mantenha as costas retas e vá abaixo num movimento controlado.",
+      "link": "https://rufforosa.com.br/wp-content/uploads/2017/07/exercicio-flexao-faixa-elastica.png"
+    },
+    {
+      "id": "8",
+      "nome": "flexao diamante",
+      "reps": "x8",
+      "descricao": "flexão em diamante, junte as mãos num formato de diamante, mantenha as costas retas, vá abaxio num movimento controlado.",
+      "link": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUQ4lxznSyD_bKm-4t3LiFyaeQVWO-peDhRw&usqp=CAU"
+    }
+  ]
+}

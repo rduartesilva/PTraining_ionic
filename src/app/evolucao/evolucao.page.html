@@ -1,0 +1,64 @@
+<ion-header>
+  <ion-toolbar class="toolbar">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title id="title">
+      PTraining
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+
+  <div class="content-text">
+    <ion-text class="text">
+      <h1>Evolução</h1>
+    </ion-text>
+  </div>
+  
+  <div class="content-text1">
+    <ion-text class="text1">
+      <p></p>
+          Nesta página poderá inserir os dados relativos ao seu peso, idade, massa gorda e massa muscular. 
+      <p></p>
+          Para adicionar os dados, terá que os escrever no respetivo lugar e clicar no botão adicionar. 
+      <p></p>
+          Estes dados serão guardados numa tabela que poderá ser consultada no botão "Ver tabela da evolução". 
+    </ion-text>
+  </div>
+  
+  <div class="content-tabela">
+    <ion-item>
+      <ion-label>Peso - </ion-label>
+      <ion-input [(ngModel)]="data.peso" placeholder="peso (kg)"></ion-input>
+    </ion-item>
+  
+    <ion-item>
+      <ion-label>Idade - </ion-label>
+      <ion-input [(ngModel)]="data.idade" placeholder="idade (anos)"></ion-input>
+    </ion-item>
+  
+    <ion-item>
+      <ion-label>Massa Gorda - </ion-label>
+      <ion-input [(ngModel)]="data.massag" placeholder="massa gorda (kg)"></ion-input>
+    </ion-item>
+  
+    <ion-item>
+      <ion-label>Massa Muscular - </ion-label>
+      <ion-input [(ngModel)]="data.massam" placeholder="massa muscular (kg)"></ion-input>
+    </ion-item>
+  
+    <ion-button expand="full" (click)="presentToast()" (click)="submitForm()" color="danger">
+      Adicionar
+    </ion-button>
+  
+    
+  
+    <ion-button expand="full" [routerLink]="['/tabela']" color="danger" class="ion-btn">
+      Ver Tabela da Evolução
+    </ion-button>
+  </div>
+  
+
+</ion-content>

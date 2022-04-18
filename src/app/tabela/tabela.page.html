@@ -1,0 +1,54 @@
+<ion-header>
+  <ion-toolbar class="toolbar">
+      <ion-buttons slot="start">
+        <ion-menu-button></ion-menu-button>
+      </ion-buttons>
+        <ion-title id="title">
+          PTraining
+        </ion-title>
+  </ion-toolbar> 
+</ion-header>
+
+<ion-content class="ion-padding">
+  <div class="content-text">
+    <ion-text class="text">
+      <h1>Tabela de Evolução</h1>
+    </ion-text>
+  </div>
+
+  <div class="content-text1">
+    <ion-text class="text1">
+      <p></p>
+          Nesta página poderá encontrar os dados que foi adicionando ao longo do tempo. 
+      <p></p>
+          A forma ideal de monitorizar a sua evolução é colocando os dados semanalmente ou mensalmente, para que possa ter uma avaliação mais precisa.
+    </ion-text>
+  </div>
+
+  <table class="table">
+    <thead color="danger">
+      <tr class="row_head">
+        <th scope="col">Idade</th>
+        <th scope="col">Peso</th>
+        <th scope="col">Massa Gorda</th>
+        <th scope="col">Massa Muscular</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of dadosData" class="row">
+        <td>{{ item.idade }} anos</td>
+        <td>{{ item.peso }} kg</td>
+        <td>{{ item.massag }} kg</td>
+        <td>{{ item.massam }} kg</td>
+        <td style="display: flex">
+          <ion-button color="danger" size="small" (click)="presentAlertConfirm(item)" >
+            <ion-icon name="trash"></ion-icon>
+          </ion-button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <ion-button expand="full" color="danger" [routerLink]="['/evolucao']">
+    Adicionar Dados
+  </ion-button>
+</ion-content>

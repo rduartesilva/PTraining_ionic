@@ -1,0 +1,40 @@
+<ion-header>
+  <ion-toolbar class="toolbar">
+      <ion-buttons slot="start">
+        <ion-menu-button></ion-menu-button>
+      </ion-buttons>
+      <div class="main">
+        <ion-title id="title">
+          PTraining
+        </ion-title>
+        <ion-button id="back" (click)="btnClicked()" routerLink="/PTraining/home">
+          <ion-icon id="arrow" name="arrow-back-outline"></ion-icon>
+        </ion-button>
+      </div>
+      
+  </ion-toolbar> 
+</ion-header>
+
+<ion-content>
+  <ion-card id="card">
+    <ion-img class="Img" src="assets/forca.png">
+      <textarea id="texto">Plano de Treino</textarea>
+    </ion-img>
+      <ion-button (click)="buttonClickedForca()" class="buttonPT">
+        <ion-icon name="chevron-forward-circle-outline"></ion-icon>
+      </ion-button>
+  </ion-card>
+  <ion-card>
+    <ion-img class="Img" src="assets/cardio.png"></ion-img>
+    <ion-button (click)="buttonClickedCardio()" class="buttonPT">
+      <ion-icon name="chevron-forward-circle-outline"></ion-icon>
+    </ion-button>
+  </ion-card>
+  <ion-card>
+    <ion-img class="Img" src="assets/circuito.png"></ion-img>
+    <ion-button (click)="buttonClickedCircuito()" class="buttonPT">
+      <ion-icon name="chevron-forward-circle-outline"></ion-icon>
+    </ion-button>
+  </ion-card>
+  
+</ion-content>

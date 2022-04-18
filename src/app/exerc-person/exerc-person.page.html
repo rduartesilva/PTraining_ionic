@@ -1,0 +1,191 @@
+<ion-header>
+  <ion-toolbar class="toolbar">
+      <ion-buttons slot="start">
+        <ion-menu-button></ion-menu-button>
+      </ion-buttons>
+      <div class="main">
+        <ion-title id="title">
+          PTraining
+        </ion-title>
+        <ion-button id="back" (click)="btnClicked()" routerLink="/PTraining/home">
+          <ion-icon id="arrow" name="arrow-back-outline"></ion-icon>
+        </ion-button>
+      </div>  
+  </ion-toolbar> 
+</ion-header>
+
+<ion-content class="ion-padding">
+  <table class="table">
+    <thead>
+      <tr class="row_head">
+        <th scope="col">Nome</th>
+        <th scope="col" class="rep">Repetições</th>
+        
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="row">
+        <td>flexao</td>
+        <td>x12</td>
+        <td>
+          <div class="form-popup" id="1">
+            <form class="form-container">
+              <img src="https://img1.gratispng.com/20180510/wyq/kisspng-push-up-computer-icons-exercise-sit-up-5af4ec2981ede0.7455031715260006815322.jpg">
+              <label><b>flexão normal, abrir os braços ao comprimento dos ombros, esticar as costas, e ir abaixo dobrando apenas os braços num movimento controlado.</b></label>
+              <br>
+              <button type="submit" class="btn cancel" (click)="btnClickedClose(1)">Close</button>
+            </form>
+          </div>
+        </td>
+        <td style="display: flex">
+          <ion-button color="danger" size="small" (click)="btnClickedOpen(1)">
+            Info
+          </ion-button>
+        </td>
+      </tr>
+      <tr class="row">
+        <td>flexao inclinada</td>
+        <td>x15</td>
+        <td>
+          <div class="form-popup" id="2">
+            <form class="form-container">
+              <img src="https://www.dicasdetreino.com.br/wp-content/uploads/2016/04/Flexao-de-Braco-Inclinado.jpg">
+              <label><b>muito parecida à flexão normal, mas um pouco mais fácil, coloque as costas retas e apoie-se numa mesa ou banco. Vá abaixo dobrando os braços num movimento controlado.</b></label>
+              <br>
+              <button type="submit" class="btn cancel" (click)="btnClickedClose(2)">Close</button>
+            </form>
+          </div>
+        </td>
+        <td style="display: flex">
+          <ion-button color="danger" size="small" (click)="btnClickedOpen(2)">
+            Info
+          </ion-button>
+        </td>
+      </tr>
+      <tr class="row">
+        <td>flexao aberta</td>
+        <td>x10</td>
+        <td>
+          <div class="form-popup" id="3">
+            <form class="form-container">
+              <img src="https://rufforosa.com.br/wp-content/uploads/2017/07/exercicio-flexao-faixa-elastica.png">
+              <label><b>flexão com braços abertos. abra os braços um pouco mais do que o comprimento dos ombros, mantenha as costas retas e vá abaixo num movimento controlado.</b></label>
+              <br>
+              <button type="submit" class="btn cancel" (click)="btnClickedClose(3)">Close</button>
+            </form>
+          </div>
+        </td>
+        <td style="display: flex">
+          <ion-button color="danger" size="small" (click)="btnClickedOpen(3)">
+            Info
+          </ion-button>
+        </td>
+      </tr>
+      <tr class="row">
+        <td>flexao diamante</td>
+        <td>x8</td>
+        <td>
+          <div class="form-popup" id="4">
+            <form class="form-container">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUQ4lxznSyD_bKm-4t3LiFyaeQVWO-peDhRw&usqp=CAU">
+              <label><b>flexão em diamante, junte as mãos num formato de diamante, mantenha as costas retas, vá abaxio num movimento controlado.</b></label>
+              <br>
+              <button type="submit" class="btn cancel" (click)="btnClickedClose(4)">Close</button>
+            </form>
+          </div>
+        </td>
+        <td style="display: flex">
+          <ion-button color="danger" size="small" (click)="btnClickedOpen(4)">
+            Info
+          </ion-button>
+        </td>
+      </tr>
+      <tr class="row">
+        <td>flexao</td>
+        <td>x12</td>
+        <td>
+          <div class="form-popup" id="1">
+            <form class="form-container">
+              <img src="https://img1.gratispng.com/20180510/wyq/kisspng-push-up-computer-icons-exercise-sit-up-5af4ec2981ede0.7455031715260006815322.jpg">
+              <label><b>flexão normal, abrir os braços ao comprimento dos ombros, esticar as costas, e ir abaixo dobrando apenas os braços num movimento controlado.</b></label>
+              <br>
+              <button type="submit" class="btn cancel" (click)="btnClickedClose(1)">Close</button>
+            </form>
+          </div>
+        </td>
+        <td style="display: flex">
+          <ion-button color="danger" size="small" (click)="btnClickedOpen(1)">
+            Info
+          </ion-button>
+        </td>
+      </tr>
+      <tr class="row">
+        <td>flexao inclinada</td>
+        <td>x15</td>
+        <td>
+          <div class="form-popup" id="2">
+            <form class="form-container">
+              <img src="https://www.dicasdetreino.com.br/wp-content/uploads/2016/04/Flexao-de-Braco-Inclinado.jpg">
+              <label><b>muito parecida à flexão normal, mas um pouco mais fácil, coloque as costas retas e apoie-se numa mesa ou banco. Vá abaixo dobrando os braços num movimento controlado.</b></label>
+              <br>
+              <button type="submit" class="btn cancel" (click)="btnClickedClose(2)">Close</button>
+            </form>
+          </div>
+        </td>
+        <td style="display: flex">
+          <ion-button color="danger" size="small" (click)="btnClickedOpen(2)">
+            Info
+          </ion-button>
+        </td>
+      </tr>
+      <tr class="row">
+        <td>flexao aberta</td>
+        <td>x10</td>
+        <td>
+          <div class="form-popup" id="3">
+            <form class="form-container">
+              <img src="https://rufforosa.com.br/wp-content/uploads/2017/07/exercicio-flexao-faixa-elastica.png">
+              <label><b>flexão com braços abertos. abra os braços um pouco mais do que o comprimento dos ombros, mantenha as costas retas e vá abaixo num movimento controlado.</b></label>
+              <br>
+              <button type="submit" class="btn cancel" (click)="btnClickedClose(3)">Close</button>
+            </form>
+          </div>
+        </td>
+        <td style="display: flex">
+          <ion-button color="danger" size="small" (click)="btnClickedOpen(3)">
+            Info
+          </ion-button>
+        </td>
+      </tr>
+      <tr class="row">
+        <td>flexao diamante</td>
+        <td>x8</td>
+        <td>
+          <div class="form-popup" id="4">
+            <form class="form-container">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUQ4lxznSyD_bKm-4t3LiFyaeQVWO-peDhRw&usqp=CAU">
+              <label><b>flexão em diamante, junte as mãos num formato de diamante, mantenha as costas retas, vá abaxio num movimento controlado.</b></label>
+              <br>
+              <button type="submit" class="btn cancel" (click)="btnClickedClose(4)">Close</button>
+            </form>
+          </div>
+        </td>
+        <td style="display: flex">
+          <ion-button color="danger" size="small" (click)="btnClickedOpen(4)">
+            Info
+          </ion-button>
+        </td>
+      </tr>
+      
+    </tbody>
+  </table>
+
+</ion-content>
+
+<ion-footer class="footer">
+  <ion-row class="ion-justify-content-center">
+    <h1>{{time | async}}</h1>
+  </ion-row>
+  <ion-button *ngIf="state === 'stop'" expand="block" color="primary" (click)="startTimer(startDuration)">START</ion-button>
+  <ion-button *ngIf="state === 'start'" expand="block" color="danger" (click)="stopTimer()">STOP</ion-button>
+</ion-footer>

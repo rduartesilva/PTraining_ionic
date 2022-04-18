@@ -1,0 +1,46 @@
+<ion-content>
+
+  <div id="cabeçalho">
+    <button id="back" (click)="btnClicked()" routerLink="/PTraining/home">
+      <ion-icon id="arrow" name="arrow-back-outline"></ion-icon>
+    </button>
+  </div>
+
+  <h1 class="titulo">PTraining</h1>
+  
+  <div class="traco">  </div>
+
+  <ion-icon name="person-outline" id="icon" color="danger"></ion-icon>
+
+  <div class="traco"></div>
+  
+  <form [formGroup]="loginForm" (ngSubmit)="submit()">
+    <ion-item lines="full">
+      <ion-label position="floating">Email</ion-label>
+      <ion-input inputmode="email" name="emailInput" formControlName="email"></ion-input>
+      <div *ngFor="let error of errorMessages.email">
+        <ng-container *ngIf="email.hasError(error.type) && (email.dirty || email.touched)">
+          <small class="error-message">{{error.message}}</small>
+        </ng-container>
+      </div>
+    </ion-item>
+
+    <ion-item lines="full">
+      <ion-label position="floating">Password</ion-label>
+      <ion-input inputmode="password" name="passInput" formControlName="password"></ion-input>
+      <div *ngFor="let error of errorMessages.password">
+        <ng-container *ngIf="password.hasError(error.type) && (password.dirty || password.touched)">
+          <small class="error-message">{{error.message}}</small>
+        </ng-container>
+      </div>
+    </ion-item>
+
+    <ion-row>
+      <ion-col>
+        <ion-button (click)="btnClickedlog()" type="submit" color="danger" expand="block">Login</ion-button>
+      </ion-col>
+    </ion-row>
+  </form>
+
+</ion-content>
+
